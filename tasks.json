@@ -1,0 +1,10 @@
+[
+    {
+        "task": "Create python lecture",
+        "done": true
+    },
+    {
+        "task": "but coffee",
+        "done": false
+    }
+]
