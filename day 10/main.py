@@ -33,7 +33,9 @@ def ask_ai(request: PromptRequest):
     else: # Catches NEUTRAL or any other labels
         prompt_instruction = "Please provide a helpful and direct response"
     
-    engineered_prompt = f"The user is feeling {sentiment}. {prompt_instruction} to this user's message: '{prompt_text}'"
+    # engineered_prompt = f"The user is feeling {sentiment}. {prompt_instruction} to this user's message: '{prompt_text}'"
+    engineered_prompt = f"You are a smart ai assistant . give response to this user's message: '{prompt_text}'"
+    
     ai_response_result = text_generator(engineered_prompt, max_length=150, num_return_sequences=1)
     ai_response = ai_response_result[0]['generated_text']
     return {

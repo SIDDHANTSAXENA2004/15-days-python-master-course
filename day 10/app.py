@@ -3,7 +3,7 @@ import requests
 
 st.title("my full stack ai chat app")
 
-user_prompt=st.text_area("How r u feeling?","I am feeling sad")
+user_prompt=st.text_area("")
 API_URL="http://127.0.0.1:8000/ask-ai"
 if st.button("send"):
     payload={
