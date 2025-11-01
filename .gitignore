@@ -2,3 +2,9 @@
 sid
 __pycache__
 venv
+rag/rag
+lang
+.env
+sql
+db
+day13
