@@ -1,0 +1,16 @@
+python-dotenv
+fastapi
+uvicorn[standard]
+pydantic
+langchain
+langchain-community
+langchain-huggingface
+langchain-google-genai
+faiss-cpu
+pypdf
+unstructured
+langchain-text-splitters
+sentence-transformers
+streamlit
+requests
+psycopg2-binary
